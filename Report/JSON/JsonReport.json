@@ -1,0 +1,110 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-05-31T11:54:06.922Z",
+        "line": 4,
+        "name": "To verify the functionality of plumber service booking",
+        "description": "",
+        "id": "to-validate-the-service-booking-in-the-application;to-verify-the-functionality-of-plumber-service-booking",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6955000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Im launching the browser and hitting the URL",
+            "match": {
+              "location": "org.step.StepDef.im_launching_the_browser_and_hitting_the_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2138000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Im entering the location",
+            "match": {
+              "location": "org.step.StepDef.im_entering_the_location(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Hyderabad"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1520000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Im selecting first checkbox/radio button and clicking next",
+            "match": {
+              "location": "org.step.StepDef.im_selecting_first_checkbox_radio_button_and_clicking_next()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 445000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Im clicking SKIP button in the question page",
+            "match": {
+              "location": "org.step.StepDef.im_clicking_skip_button_in_the_question_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 522000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Im selecting date",
+            "match": {
+              "location": "org.step.StepDef.im_selecting_date()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8264000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Im entering email-id",
+            "match": {
+              "location": "org.step.StepDef.im_entering_email_id(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "rakhul90prakash@gmail.com"
+                ]
+              }
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To validate the service booking in the application",
+    "description": "",
+    "id": "to-validate-the-service-booking-in-the-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/login.feature",
+    "tags": []
+  }
+]
